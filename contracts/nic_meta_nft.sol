@@ -13,10 +13,10 @@ contract NicMeta is ERC721Enumerable, Ownable {
     bool public _revealed = false;
 
     // Constants
-    uint256 public constant MAX_SUPPLY = 10;
-    uint256 public mintPrice = 0.3 ether;
-    uint256 public maxBalance = 1;
-    uint256 public maxMint = 1;
+    uint256 public constant MAX_SUPPLY = 1000;
+    uint256 public mintPrice = 0.001 ether;
+    uint256 public maxBalance = 10000;
+    uint256 public maxMint = 1000;
 
     string baseURI;
     string public notRevealedUri;
